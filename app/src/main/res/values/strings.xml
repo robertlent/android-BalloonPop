@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Balloon Pop</string>
+    <string name="level_label">Level: </string>
+    <string name="score_label">Score: </string>
+    <string name="max_number">99</string>
+    <string name="play_game">Play Game</string>
+    <string name="popping_pin">Popping Pin</string>
+    <string name="stop_game">Stop game</string>
+    <string name="start_game">Start game</string>
+    <string name="hi_score">Hi-Score: </string>
+</resources>
