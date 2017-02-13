@@ -8,4 +8,10 @@
     <string name="stop_game">Stop game</string>
     <string name="start_game">Start game</string>
     <string name="hi_score">Hi-Score: </string>
+    <string name="directions">In this game, you will need to tap 10 balloons as they rise during each level.\n
+        As the level increases, the speed of the balloons will increase.\n
+        Once you miss 5 balloons, you lose!</string>
+    <string name="welcome">Welcome to Balloon Pop!</string>
+    <string name="launch_game">Launch Game</string>
+    <string name="launch_game_muted">Launch Game (Muted)</string>
 </resources>
