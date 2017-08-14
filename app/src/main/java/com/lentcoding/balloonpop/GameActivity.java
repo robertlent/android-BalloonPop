@@ -46,6 +46,7 @@ public class GameActivity extends AppCompatActivity implements Balloon.BalloonLi
     private int mBalloonsPopped;
     private SoundHelper mSoundHelper;
     private boolean mute;
+    int mHiScore;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,7 +81,7 @@ public class GameActivity extends AppCompatActivity implements Balloon.BalloonLi
             }
         });
 
-        int mHiScore = HighScoreHelper.getTopScore(this);
+        mHiScore = HighScoreHelper.getTopScore(this);
         TextView viewHiScore = (TextView) findViewById(R.id.viewHiScore);
         viewHiScore.setText(String.valueOf(mHiScore));
         viewScore = (TextView) findViewById(R.id.viewScore);
@@ -220,6 +221,9 @@ public class GameActivity extends AppCompatActivity implements Balloon.BalloonLi
                 HighScoreHelper.setTopScore(this, mScore);
                 SimpleAlertDialog dialog = SimpleAlertDialog.newInstance("New High Score!", String.format(Locale.getDefault(), "Your new high score is %d", mScore));
                 dialog.show(getSupportFragmentManager(), null);
+                mHiScore = HighScoreHelper.getTopScore(this);
+                TextView viewHiScore = (TextView) findViewById(R.id.viewHiScore);
+                viewHiScore.setText(String.valueOf(mHiScore));
             }
         }
     }

@@ -10,8 +10,7 @@ public class HighScoreHelper {
     private static final String PREF_TOP_SCORE = "pref_top_score";
 
     private static SharedPreferences getPreferences(Context context) {
-        return context.getSharedPreferences(
-                PREFS_GLOBAL, Context.MODE_PRIVATE);
+        return context.getSharedPreferences(PREFS_GLOBAL, Context.MODE_PRIVATE);
     }
 
     //  Setters and getters for global preferences
