@@ -8,7 +8,7 @@ Players also have the option of playing the game without the sounds music and po
 ### Screenshots
 ![ScreenShot](/app/src/main/assets/Screenshots/AppInterfaceInstructions.png)
 ![ScreenShot](/app/src/main/assets/Screenshots/AppInterfaceNewGame.png)
-![ScreenShot](/app/src/main/assets/Screenshots/AppInterfaceGameplay.png)
+![ScreenShot](/app/src/main/assets/Screenshots/AppInterfaceGamePlay.png)
 ![ScreenShot](/app/src/main/assets/Screenshots/AppInterfaceGameOver.png)
 
 ### Works on
